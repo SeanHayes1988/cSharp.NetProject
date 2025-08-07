@@ -27,8 +27,8 @@ namespace BonsApp
         private void btnDayward_Click(object sender, EventArgs e)
         {
             this.Hide();
-          DayWard dw = new DayWard();
-           dw.Show();
+            DayWard dw = new DayWard();
+            dw.Show();
         }
     }
  

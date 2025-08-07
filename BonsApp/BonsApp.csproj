@@ -103,59 +103,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bay1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Bay1.Designer.cs">
-      <DependentUpon>Bay1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Bay2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Bay2.Designer.cs">
-      <DependentUpon>Bay2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Bay4.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Bay4.Designer.cs">
-      <DependentUpon>Bay4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Bay5.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Bay5.Designer.cs">
-      <DependentUpon>Bay5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Bay6.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Bay6.Designer.cs">
-      <DependentUpon>Bay6.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Bay7.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Bay7.Designer.cs">
-      <DependentUpon>Bay7.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Bay8.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Bay8.Designer.cs">
-      <DependentUpon>Bay8.cs</DependentUpon>
-    </Compile>
     <Compile Include="DayWard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DayWard.Designer.cs">
       <DependentUpon>DayWard.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Bay3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Bay3.Designer.cs">
-      <DependentUpon>Bay3.cs</DependentUpon>
     </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
@@ -163,7 +115,6 @@
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="AssignToBay.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Recovery.cs">
@@ -172,32 +123,8 @@
     <Compile Include="Recovery.Designer.cs">
       <DependentUpon>Recovery.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Bay1.resx">
-      <DependentUpon>Bay1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Bay2.resx">
-      <DependentUpon>Bay2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Bay4.resx">
-      <DependentUpon>Bay4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Bay5.resx">
-      <DependentUpon>Bay5.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Bay6.resx">
-      <DependentUpon>Bay6.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Bay7.resx">
-      <DependentUpon>Bay7.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Bay8.resx">
-      <DependentUpon>Bay8.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="DayWard.resx">
       <DependentUpon>DayWard.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Bay3.resx">
-      <DependentUpon>Bay3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
@@ -210,7 +137,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Recovery.resx">
       <DependentUpon>Recovery.cs</DependentUpon>
@@ -231,54 +157,6 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Webp.net-gifmaker.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\NotCollectedBUtton.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\NotCollectedBUtton1.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\NotCollectedBUtton %281%29.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Occupied Button.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Occupied Button Blue.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Occupied Button1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Request Actepted.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Not Transfered.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Bay2NT.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Bay3NT.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Bay4NT.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Bay5NT.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Bay6NT.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Bay7NT.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Bay8NT.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
