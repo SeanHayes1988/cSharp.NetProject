@@ -1,0 +1,11 @@
+C:\Users\Administrator\Desktop\Bons\BonsApp\BonsApp\bin\Debug\BonsApp.exe.config
+C:\Users\Administrator\Desktop\Bons\BonsApp\BonsApp\bin\Debug\BonsApp.exe
+C:\Users\Administrator\Desktop\Bons\BonsApp\BonsApp\bin\Debug\BonsApp.pdb
+C:\Users\Administrator\Desktop\Bons\BonsApp\BonsApp\obj\Debug\BonsApp.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Bons\BonsApp\BonsApp\obj\Debug\BonsApp.mainMenu.resources
+C:\Users\Administrator\Desktop\Bons\BonsApp\BonsApp\obj\Debug\BonsApp.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Bons\BonsApp\BonsApp\obj\Debug\BonsApp.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Bons\BonsApp\BonsApp\obj\Debug\BonsApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Bons\BonsApp\BonsApp\obj\Debug\BonsApp.exe
+C:\Users\Administrator\Desktop\Bons\BonsApp\BonsApp\obj\Debug\BonsApp.pdb
+C:\Users\Administrator\Desktop\Bons\BonsApp\BonsApp\obj\Debug\BonsApp.Display_Menu.resources
